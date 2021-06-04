@@ -10,7 +10,7 @@ CORS(app)
 # sent to the service root will receive a healthy response.
 @app.route("/")
 def healthCheckResponse():
-    return jsonify({"message": "Version 1. Nothing here, used health many checks. Try /mysfits instead."})
+    return jsonify({"message": "Version 1. Nothing here, used health check. Try /mysfits instead."})
 
 # The main API resource that the next version of the Mythical Mysfits website
 # will utilize. It returns the data for all of the Mysfits to be displayed on
